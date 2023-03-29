@@ -1,2 +1,16 @@
 @import 'utils/variables';
 @import 'components/type';
+@import 'components/box';
+@import 'components/img';
+
+body{
+  background: #00F;
+  margin: 0;
+  padding: 0;
+}
+
+.title{
+  color: #FFDDDD;
+  margin-bottom: 200px;
+}
+
