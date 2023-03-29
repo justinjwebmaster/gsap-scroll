@@ -1,16 +1,14 @@
 @import 'utils/variables';
 @import 'components/type';
-@import 'components/box';
-@import 'components/img';
+@import 'components/header';
 
 body{
   background: #000;
   margin: 0;
   padding: 0;
+  color: #FFF;
+
+  overflow-x: hidden;
 }
 
-.title{
-  color: #FFDDDD;
-  margin-bottom: 200px;
-}
 

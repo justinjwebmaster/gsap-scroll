@@ -1,0 +1,97 @@
+.header{
+  position: relative;
+  width: 100vw;
+  height: 50vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform-origin: bottom center;
+
+  .imgContainer{
+    position: absolute;
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -10;
+
+    .img{
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .title{
+    position: absolute;
+    top: 40%;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    z-index: 10;
+    color: #FFF;
+  }
+
+}
+
+.card{
+  width: 70vw;
+  height: fit-content;
+  margin: 300px auto;
+  display: flex;  
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  &__content{
+    width: 40%;
+    color: #FFF;
+  }
+
+  &__title{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  &__imgContainer{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    .card__img{
+      width: 400px;
+      height: 400px;
+      scale: 1.2;
+    }
+  }
+
+}
+
+
+.textSlide{
+  width: 100vw;
+  height: 200px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;
+  margin-bottom: 1500px;
+  border-top: 2px #333 solid;
+  border-bottom: 2px #333 solid;
+  
+  &__text{
+    font-size: 4.5rem;
+    font-weight: bold;
+    width: 250vw;
+    position: relative;
+    left: 200vw;
+    text-transform: uppercase;
+  }
+}
