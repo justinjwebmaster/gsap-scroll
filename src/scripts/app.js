@@ -9,10 +9,11 @@ const list = gsap.utils.toArray(".img"); //faire un tableau de toute mes .box
 list.forEach(function(item) { // item = 1 element de la liste
   gsap.to(item, {
     opacity: 1,
-    duration: .6,
+    duration: .4,
+    scale: 1,
     scrollTrigger: {
       trigger :item,
-      start: "center center",
+      start: "top center",
       toggleActions: "play pause resume reset",
       markers: true,
     }
